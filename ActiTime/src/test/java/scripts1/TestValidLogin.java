@@ -1,4 +1,4 @@
-package scripts;
+package scripts1;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -29,6 +29,7 @@ public class TestValidLogin extends ActiTimeBaseTest {
 		//verify homePage is displayed
 		EnterTimeTrackPage homePage=new EnterTimeTrackPage(driver);
 		boolean result = homePage.verifyHomePageIsDislayed(wait, driver, tilte);
+		//assert
 		Assert.assertEquals(result,true);
 	}
 

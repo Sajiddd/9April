@@ -1,4 +1,4 @@
-package scripts;
+package scripts1;
 import org.testng.annotations.Test;
 
 import generic.Excel;
